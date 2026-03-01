@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1764969629628,
+      "tag": "0000_salty_warbird",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1765089719420,
+      "tag": "0001_large_leopardon",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1765183158673,
+      "tag": "0002_vengeful_rhino",
+      "breakpoints": true
+    }
+  ]
+}

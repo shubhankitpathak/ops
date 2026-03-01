@@ -1,0 +1,27 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ops",
+  "compatibility_date": "2024-12-01",
+  "compatibility_flags": ["nodejs_compat"],
+  
+  // D1 Database binding
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ops-db",
+      "database_id": "76e30c2d-19d8-441b-9814-9e96b9f99a45",  // Replace with your actual ID
+      "migrations_dir": "drizzle/migrations"
+    }
+  ],
+
+  // Environment variables (non-secret)
+  "vars": {
+    "ENVIRONMENT": "development"
+  },
+
+  // Assets configuration for Next.js
+  "assets": {
+    "directory": ".worker-next/assets",
+    "binding": "ASSETS"
+  }
+}

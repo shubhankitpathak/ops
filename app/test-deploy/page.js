@@ -18,7 +18,7 @@ export default function TestDeploy() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           repoOwner: "puse2504",  // Your GitHub username
-          repoName: "test-repo",   // Your repo name
+          repoName: "test-repo",   
           defaultBranch: "main",
         }),
       });

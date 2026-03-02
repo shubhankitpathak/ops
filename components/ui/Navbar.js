@@ -90,7 +90,7 @@ export default function Navbar({ user, onLogout }) {
         </div>
       </div>
 
-      {/* Mobile dropdown panel */}
+              
       <div className={`md:hidden bg-slate-900/70 border-t border-gray-800/20 ${open ? 'block' : 'hidden'}`}>
         <div className="px-4 pt-2 pb-4 space-y-1">
           <Link href="/dashboard" className="block px-3 py-2 rounded-md text-sm text-indigo-100 hover:bg-white/5">Dashboard</Link>

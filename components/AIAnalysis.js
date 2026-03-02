@@ -8,6 +8,8 @@ export default function AIAnalysis({ projectId, runId, deploymentStatus }) {
   const [analysis, setAnalysis] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+
+  // this is ai analysis file
   
   // Only show for failed deployments
   if (deploymentStatus !== "completed" || !runId) {

@@ -43,7 +43,7 @@ export default function LogViewer({ projectId, runId, status }) {
   useEffect(() => {
     if (!isExpanded || isPending) return; // ✅ Skip if pending
     
-    // Clear any existing interval
+  
     if (intervalRef.current) {
       clearInterval(intervalRef.current);
     }

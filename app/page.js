@@ -1,4 +1,3 @@
-// src/app/page.js
 "use client";
 
 import { useSearchParams } from "next/navigation";
@@ -65,16 +64,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className={`relative z-10 flex flex-col items-center justify-center min-h-[calc(100vh-100px)] px-4 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         <div className="text-center max-w-4xl">
-          {/* Badge */}
-          {/* <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-full px-4 py-1.5 mb-8">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-            </span>
-            <span className="text-sm text-gray-300">Now with Railway backend deployments</span>
-          </div> */}
 
-          {/* Main Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Deploy your projects
             <br />

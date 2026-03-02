@@ -112,7 +112,7 @@ export default function AIAnalysis({ projectId, runId, deploymentStatus }) {
               </div>
             </div>
             
-            {/* Suggested Fixes */}
+ 
             <div>
               <div className="text-purple-300 font-medium mb-2">💡 Suggested Fixes</div>
               <div className="space-y-2">
